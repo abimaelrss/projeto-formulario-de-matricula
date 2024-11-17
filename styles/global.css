@@ -5,24 +5,22 @@
 }
 
 :root {
-  --font-family: 'Poppins', sans-serif;
+  --font-family: "Poppins", sans-serif;
   --text: 400 1rem/1.5 var(--font-family);
-  --text-sm: 400 .875rem/1.4 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
 
   --text-primary: #292524;
-  --text-secondary: #57534E;
-  --text-tertiary: #8F8881;
-  --text-highlight: #E43A12;
-  
-  --surface-primary: #FFFFFF;
-  --surface-secondary: #FEE7D6;
-  --surface-disabled: #E7E5E4;
-  
-  --stroke-default: #D6D3D1;
-  --stroke-highlight: #F3541C;
-  --semantic-error: #DC2626;
+  --text-secondary: #57534e;
+  --text-tertiary: #8f8881;
+  --text-highlight: #e43a12;
 
-  /* zoom: 60%; */
+  --surface-primary: #ffffff;
+  --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
+
+  --stroke-default: #d6d3d1;
+  --stroke-highlight: #f3541c;
+  --semantic-error: #dc2626;
 }
 
 body {
@@ -32,7 +30,8 @@ body {
   color: var(--text-secondary);
 }
 
-h1, h2 {
+h1,
+h2 {
   color: var(--text-primary);
 }
 
@@ -50,4 +49,5 @@ img {
 }
 
 .flex-2 {
-  flex: 2}
+  flex: 2;
+}
